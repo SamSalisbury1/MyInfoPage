@@ -1,0 +1,6 @@
+Black: ##0f0f0f
+Blue: #14213D
+Light blue: #213663
+Yellow: #FCA311
+Gray: #E5E5E5
+White: #FFFFFF

@@ -1,0 +1,88 @@
+body {
+    background: #E5E5E5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #E5E5E5;
+}
+
+#top-bar {
+    background: #14213D;
+    color: #ffffff;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#link-container {
+    display:  flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    width: 300px;
+}
+
+#heading-section {
+    align-items: center;
+    background: #213663;
+    height: 300px;
+}
+
+#heading-section-title {
+    padding-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    width: 75%;
+}
+
+#content-section {
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100%;
+    top: 150px;
+    max-width: 2000px;
+    width: 75%;
+}
+
+#content-section-heading {
+    align-items: center;
+    background: #0f0f0f;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#information-section {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    width: 450px;
+}
+
+#contact-me-section {
+    display: block;
+    width: 20%;
+}
+
+.contact_info {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
