@@ -173,6 +173,19 @@ h2 {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    display: none;
     height: 80px;
     width: 80px;
+}
+
+#to-top-button:hover {
+    background: #e3930f;
+}
+
+#to-top-button:active {
+    background: #ca820e;
+}
+
+#to-top-button:focus {
+    outline: none;
 }
