@@ -47,7 +47,7 @@ function animatedDespawn() {
     button.style.bottom = 20+"px";
 
     let animateInterval = setInterval(() => {
-        currentPos += speed;
+        currentPos -= speed;
         
         if (currentPos <= -100 && speed > 0) {
             currentPos = -100;
