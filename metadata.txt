@@ -2,5 +2,9 @@ Black: #222222
 Blue: #14213D
 Light blue: #213663
 Yellow: #FCA311
+    Hover: #e3930f
+    Active: #ca820e
 Gray: #E5E5E5
 White: #FFFFFF
+    Hover: #cccccc
+    Active: #b3b3b3
