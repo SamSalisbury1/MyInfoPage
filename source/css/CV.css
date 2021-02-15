@@ -46,10 +46,28 @@ h2 {
 }
 
 #link-container {
+    align-items: center;
     display:  flex;
     justify-content: space-between;
     padding-right: 20px;
     width: 600px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: #cccccc;
+}
+
+a.nav-link:active {
+    color: #b3b3b3;
+}
+
+.nav-link:visited {
+    text-decoration: none;
 }
 
 #heading-section {
