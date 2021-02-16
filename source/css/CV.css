@@ -76,6 +76,10 @@ a.nav-link:active {
     height: 300px;
 }
 
+#mobile-burger-button {
+    display: none;
+}
+
 #heading-section-title {
     padding-top: 65px;
     margin-left: auto;
@@ -210,4 +214,66 @@ a.nav-link:active {
 
 #to-top-button:focus {
     outline: none;
+}
+
+/* mobile styles */
+@media only screen and  (max-width: 782px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #top-bar {
+        display: none;
+    }
+    
+    #mobile-burger-button {
+        background: #161616;
+        border: white 1px solid;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        display: block;
+        position: fixed;
+        height: 40px;
+        width: 40px;
+        top: 62px;
+        right: 40px;
+        z-index: 2;
+    }
+
+    #mobile-burger-button {
+        fill: #161616;
+    }
+
+    #mobile-burger-button:hover {
+        background: white;
+        border: #161616;
+    }
+
+    #mobile-burger-button:hover #burger-image {
+        filter: invert(1);
+    }
+
+    #heading-section {
+        display: none;
+        position: absolute;
+        height: 50px;
+        width: 100%;
+    }
+
+    #heading-section-title {
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    #contact-me-section {
+        display: none;
+    }
+
+    #content-section {
+        top: 0;
+        width: 100%;
+    }
 }
